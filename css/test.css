@@ -1,0 +1,28 @@
+.box {
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 3px 0 rgba(120, 160, 160, 0.8);
+    background: rgb(227 182 182 / 80%);
+}
+
+.box.n1 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 3px 0 rgba(120, 160, 160, 0.8);
+    background: rgb(227 182 182 / 50%);
+}
+
+.box.n2 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 3px 0 rgba(120, 160, 160, 0.8);
+    background: rgb(227 182 182 / 90%);
+}
+
+
+
+.dummy {
+    width: 100%;
+    height: 300px;
+}
+.canvas {width: 100vw; height: 100vh;}

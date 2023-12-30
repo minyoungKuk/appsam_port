@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <style>
+        .tab_area {
+            width: 500px;
+            height: 200px;
+            border: 1px solid red;
+            position: relative;
+        }
+        .tab_area .area{
+            width: 500px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .tab_area .a1{
+            background-color: blue;
+            /* display: block; */
+        }
+        .tab_area .a2{
+            background-color: yellowgreen;
+            display: none;
+        }
+        .tab_area .a3{
+            background-color: goldenrod;
+            display: none;
+        }
+
+        button.active{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>tab UI</h2>
+    <div class="tab">
+        <div class="tab_btn">
+            <button class="active">버튼1</button>
+            <button>버튼2</button>
+            <button>버튼3</button>
+        </div>
+
+        <div class="tab_area">
+            <div class="area a1"></div>
+            <div class="area a2"></div>
+            <div class="area a3"></div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
